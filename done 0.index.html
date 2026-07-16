@@ -731,7 +731,6 @@
     </style>
   </head>
   <body>
-    <!-- Top Nav Header -->
     <header>
       <div class="nav-container">
         <div class="logo">
@@ -747,7 +746,6 @@
               <li><a href="#contact">Contact</a></li>
             </ul>
           </nav>
-          <!-- Dynamic Cart Button Trigger -->
           <div class="cart-trigger" onclick="toggleCart(true)">
             <i class="fa-solid fa-shopping-cart"></i>
             <span class="cart-badge" id="cart-badge-count">0</span>
@@ -756,15 +754,13 @@
       </div>
     </header>
 
-    <!-- Slide-Out Shopping Cart Panel -->
     <div class="cart-panel" id="cart-panel">
       <div class="cart-header">
         <h3>Your Cart</h3>
         <i class="fa-solid fa-xmark cart-close" onclick="toggleCart(false)"></i>
       </div>
       <div class="cart-items-container" id="cart-items-container">
-        <!-- Filled dynamically by JavaScript -->
-      </div>
+        </div>
       <div class="cart-footer-summary">
         <div class="cart-total-line">
           <span>Subtotal:</span>
@@ -785,7 +781,6 @@
       <a href="#shop" class="btn">Browse Shop</a>
     </section>
 
-    <!-- Services Section -->
     <section id="services">
       <div class="section-header">
         <h2>Our Services</h2>
@@ -850,7 +845,6 @@
       </div>
     </section>
 
-    <!-- Shop Catalog -->
     <section id="shop">
       <div class="shop-section">
         <div class="section-header">
@@ -931,7 +925,6 @@
       </div>
     </section>
 
-    <!-- Reviews Section -->
     <section id="reviews">
       <div class="section-header">
         <h2>Customer Reviews & Comments</h2>
@@ -942,8 +935,7 @@
       </div>
       <div class="reviews-container">
         <div class="reviews-list" id="reviews-list">
-          <!-- Initial comments populated via JS -->
-        </div>
+          </div>
         <div class="review-form-wrapper">
           <h3>Leave a Comment</h3>
           <form id="review-form" onsubmit="handleReviewSubmit(event)">
@@ -981,7 +973,6 @@
       </div>
     </section>
 
-    <!-- Request Form Section -->
     <section id="contact">
       <div class="section-header">
         <h2>Get In Touch</h2>
@@ -1057,7 +1048,6 @@
       <p>&copy; 2026 Links Frequency Music. All rights reserved.</p>
     </footer>
 
-    <!-- Inventory, Reviews & Cart Scripts -->
     <script>
       const products = [
         {
@@ -1065,7 +1055,7 @@
           name: "Dual Channel 2000W Power Amplifier",
           category: "amplifiers",
           price: 649.0,
-          image: "",
+          image: "photo_2026-07-16_05-52-28.jpg",
           icon: "fa-bolt",
         },
         {
